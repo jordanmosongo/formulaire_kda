@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonSite</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <form>
+        <section class="generalInfo">
+            <h3>General information</h3>
+            <div class="form-control">
+                <select name="title" id="title">
+                    <option value="" disabled selected>Title</option>
+                    <option value="fist title">first title</option>
+                    <option value="second title">first title</option>
+                </select> 
+            </div>
+            <div class="groupControl">
+                <div class="form-control insideControl">
+                    <input type="text" id="firstname" placeholder="First name" name="firstName" value="Jordan">
+                </div>
+                <div class="form-control insideControl">
+                    <input type="text" id="lastname" placeholder="Last name" name="lastName"> 
+                </div>
+            </div>
+            <div class="form-control">
+                <select name="position" id="postion">
+                    <option value="" disabled selected>Position</option>
+                    <option value="first position">first position</option>
+                    <option value="se ond position">second position</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <input type="text" id="company" name="company" placeholder="company">
+            </div>
+            
+            <div class="groupControl">
+                <div class="insideControlLong insideControl1"> 
+                    <input type="text" id="business" name="business" placeholder="Busines Arena">
+                </div>
+                <div class="form-control insideControlShort insideControl2">
+                    <select name="employee" id="employee">
+                        <option value="" disabled selected>Employee</option>
+                        <option value="other1">Employee 1</option>
+                        <option value="other2">Employee 2</option>
+                    </select>
+                </div>
+            </div>           
+        </section>
+        <section class="contact">
+            <h3>Contact Details</h3>
+            <div class="form-control">
+                <input type="text" placeholder="Street + Nr" id="streetAndId">
+            </div>
+            <div id="second" class="form-control">
+                <input type="text" placeholder="Additionnal information">
+            </div>
+            <div class="groupControl">
+                <div class="form-control insideControlShort">
+                    <input type="text" placeholder="Zip code" id="zcode">
+                </div>
+                <div class="form-control insideControlLong insideControl2">
+                    <select name="place" id="place">
+                        <option value="" disabled selected>Place</option>
+                        <option value="other1">place 1</option>
+                        <option value="other2">place 2</option>
+                    </select> 
+                </div>
+            </div>            
+            <div class="form-control">
+                <select name="country" id="country" >
+                    <option value="" disabled selected>Country</option>
+                    <option value="country 1">country 1</option>
+                    <option value="country 2">country 2</option>
+                </select>     
+            </div>
+            <div class="groupControl">
+                <div class="form-control insideControlShort">
+                    <input type="number" placeholder="code+">
+                </div>
+                <div class="form-control insideControlLong insideControl2">
+                    <input type="tel" placeholder="Phone number" id="number">
+                </div>
+            </div>            
+            <div class="form-control">
+                <input type="email" placeholder="your Email">
+            </div>
+            <div class="form-control">
+                <label class="container">                    
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                <span id="condition">
+                    I do accept the <a href="lien.html"><strong>terms and conditions</strong></a>
+                    <span id="ofYourSite">of your site</span>
+                </span>
+            </div>  
+            <button type="submit" id="badge">Register Badge</button>
+        </section>
+    </form>
+</body>
+</html>
